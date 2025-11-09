@@ -7,13 +7,8 @@ description: Some description.
 permalink: /about/
 ---
 
-<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Thomas A. Anderson" width="200">
+<img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Oliver Pink (me)" width="200">
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ Hi! I am Oliver Pink and I am looking for a job in the Creative Industries, specifically Games Production & Development. I am studying at East Sussex College for a BSc in Games Development, previously completing my HnD in Games Design. Before this, I completed my T Level in Digital Production for 2 years, learning website development tools (PHP, SQL, JavaScript), games development software (Unreal and Unity Engine), 3D modelling (Blender) and project management skills (Trello and Discord). In my spare time, I like to play video games, watch films or TV shows. I hope that this shows a wide variety of skills and knowledge that could be used. Thank you for reading.
