@@ -3,8 +3,8 @@ date: 2025-11-10 20:00:00 +0000
 layout: post
 title: "My Journey into Video Games"
 description: "A brief introduction to how I grew up playing video games."
-image: /assets/img/mynewwebsite-hero.png
-optimized_image: /assets/img/mynewwebsite-hero.png
+image: /assets/img/.png
+optimized_image: /assets/img/.png 
 tags: [website, blog, jekyll]
 categories: life, work
 author: oliverpink
@@ -17,4 +17,3 @@ Since I was born, the past 21 years of my life I have spent a large portion of m
 ## WIP: Coming Soon!
 
 ---
-

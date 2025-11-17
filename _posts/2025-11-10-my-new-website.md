@@ -59,28 +59,84 @@ You can build and publish a blog or portfolio for free, with simple tools and ea
   </tfoot>
 </table>
 
-For Jekyll on Windows, PowerShell may block gem installs until you change execution policy:
+For Jekyll on Windows, it block gem installs until you change the execution policy in Powershell using the first command. You can re-enable this policy using the second command:
 
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Restricted
 ```
 
-# Heading 1
+# Tutorial
+
+I used the first part of the video to create my website. As I used a different template to his, I used Perplexity AI to figure out how to change the values to my liking. 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/g6AJ9qPPoyc?si=Eikhkt1phJ2-AxpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Template
+
+I used the template named <a href="https://github.com/thiagorossener/jekflix-template">Jekflix</a>. Looks like Netflix (duh), but it also has everything I want on a website.
 
 
-## Heading 2
+## Cloning
+
+After forking the project to your github, you can clone your project and locally host it. Typically, it would be stored within your git folder, so whether you have git as a program or as a portable application, it should be within that folder.
+
+## Referencing your project in Git
+
+1. Open your Git Terminal
+2. Type in ```cd (project directory)```. <br>For me, this was ```cd /g/programs/portablegit/oliverpink.github.io```. This connects your Git terminal to your git project.
+
+After this, there are many commands you can do. For my instance, it would be locally hosting and uploading it live to your website.
+
+### Local Host
+
+Type this command:
+```
+bundle exec jekyll serve 
+```
+This will boot up a local server, given that there are no errors. It's also a good way to check if your images are directed correctly as each time you refresh, it'll respond with a good ERROR message.
+
+To see your website, connect to <a href="localhost:4000">localhost:4000</a> in your browser.
+
+To stop your local build, go back to your Git Terminal and CTRL + C and terminate batch job.
+
+Additionally, if your changes aren't seen in your local build, you can use `bundle exec jekyll clean` to refresh the site's local files, which are built every run. You can also combine this with jekyll serve so you don't have to do two commands every time:
+```
+bundle exec jekyll clean  && bundle exec jekyll serve
+```
+
+### Upload to Live Build
+
+Type these commands:
+```
+git add .
+git ad commit -m "(notes here)
+git push origin main
+```
+Couple of notes:
+- If the project branch in your project pages tab is set as master, replace main as master. If it is named main, do not change. 
+- If remote is not set up, use ```git remote add origin https://github.com/yourusername/yourusername.github.io.git```
 
 
-### Heading 3
+### Updating the Config file
 
+In the Jekflix template, there is a `config.yml` file to control things like:
+- Website Name
+- Website Title
+- Website Description 
+- Tags
+- Menu pages
+- Email
+- Contact Form Setup
+- Social Media Settings (enable/disable social media buttons)
+- Post settings
+- URL & Language
+- Google Analytics/SEO
+- How the website will function (paginators, builds and miscellaneous back-end things)
+- & more
 
-#### Heading 4
-
---page-break--
-
-
-
-## Code
+## Creating New Posts
 
 
 Cum sociis natoque penatibus et magnis dis `code element` montes, nascetur ridiculus mus.
